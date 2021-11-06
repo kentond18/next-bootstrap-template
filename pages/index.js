@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Image from "next/image";
 import {
 	Container,
 	Row,
@@ -107,10 +107,12 @@ const Home = () => {
 					rel="noopener noreferrer"
 				>
 					Powered by
-					<img
+					<Image
 						src="/vercel.svg"
 						alt="Vercel Logo"
-						className="pt-3 ml-3"
+						className="pt-3"
+						width={283}
+						height={64}
 					/>
 				</a>
 			</footer>
